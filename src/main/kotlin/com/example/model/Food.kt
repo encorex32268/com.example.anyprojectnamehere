@@ -1,7 +1,10 @@
 package com.example.model
 
+import kotlinx.serialization.Serializable
+
 const val BASE_URL =  "http://127.0.0.1:8080/"
 
+@Serializable
 data class Food(
     val name : String,
     val description : String ,
